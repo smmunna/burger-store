@@ -227,6 +227,11 @@ div.myimage1 {
     border-radius: 2rem !important;
 
 }
+
+.messageform{
+  display: flex;
+  justify-content: center;
+}
 /* Responsive */
 /* X-Small devices (portrait phones, less than 576px)
  No media query for `xs` since this is the default in Bootstrap */
