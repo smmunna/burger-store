@@ -1,8 +1,6 @@
 import React from "react";
 import "../../App.css";
 import About from "./About";
-import Footer from "../Footer";
-import { BrowserRouter as Route, Routes, Router, Link } from "react-router-dom";
 import "bootstrap/dist/css/bootstrap.min.css";
 import Burger1 from "../images/burger1.jpg";
 import Burger2 from "../images/burger2.jpg";
@@ -91,7 +89,7 @@ export default function Home() {
       {/* Section 2 for Best ever Burgers */}
       <section id="Homesec2">
         <div className="container">
-          <h5 className="Homeheading1">Burger Menu</h5>
+          <h5 className="Homeheading1">Burger Items Available</h5>
           <h1 className="Homeheading2">Best Ever Burger</h1>
           <div className="row">
             <div className="col-lg-6 Homesec2-row">
@@ -194,9 +192,9 @@ export default function Home() {
 
             <div className="Homebtn">
               <button className="wholeButton">
-                <Link to="" className="moreItem">
+                <a href="#" className="moreItem">
                   More Item
-                </Link>
+                </a>
               </button>
             </div>
           </div>
