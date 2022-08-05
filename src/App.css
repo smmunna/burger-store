@@ -154,14 +154,14 @@ div.myimage1 {
 }
 .Abouttext1 {
   padding-top: 6rem;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
-.AbouttextFont{
+.AbouttextFont {
   font-size: 22px;
   font-weight: 800;
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
 }
-.AbouttextFont1{
+.AbouttextFont1 {
   font-size: 20px;
 }
 
@@ -201,34 +201,32 @@ div.myimage1 {
   color: blue;
 }
 
-
 /* Menu Page Menu.js */
-.Menu-Heading{
+.Menu-Heading {
   margin-top: 3rem;
-  background-color: #FECA16;
+  background-color: #feca16;
   padding: 32px;
   text-align: center;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   font-size: 40px;
   font-weight: 800;
 }
-#Menu-section{
+#Menu-section {
   margin-top: 3rem;
 }
-.card{
+.card {
   width: 8rem;
   /* border: 1px solid #3E7DC0 !important; */
 }
-.card{
-    margin-top: 20px;
-    align-items: center;
-    padding-top: 2rem;
-    box-shadow: 1px 0px 7px 2px #0000002e;
-    border-radius: 2rem !important;
-
+.card {
+  margin-top: 20px;
+  align-items: center;
+  padding-top: 2rem;
+  box-shadow: 1px 0px 7px 2px #0000002e;
+  border-radius: 2rem !important;
 }
 
-.messageform{
+.messageform {
   display: flex;
   justify-content: center;
 }
@@ -246,12 +244,11 @@ div.myimage1 {
 
 /* Large devices (desktops, 992px and up) */
 @media (max-width: 992px) {
-    /* Footer.js File */
-#Footer {
-  height: 500px;
+  /* Footer.js File */
+  #Footer {
+    height: 500px;
+  }
 }
-}
-
 
 /* Medium devices (tablets, 768px and up) */
 @media (max-width: 768px) {
@@ -267,22 +264,21 @@ div.myimage1 {
 
   .Abouttext1 {
     padding-top: 1rem;
-}
+  }
   /* Home.js file */
-  #Homesec3{
+  #Homesec3 {
     height: 1000px;
   }
   /* Footer.js File */
-#Footer {
-  height: 700px;
-}
- /* Menu.js file */
- .card{
-  width: 32rem;
-  align-items: center;
-  border: 5px solid #FECA16 !important;
-}
-
+  #Footer {
+    height: 700px;
+  }
+  /* Menu.js file */
+  .card {
+    width: 32rem;
+    align-items: center;
+    border: 5px solid #feca16 !important;
+  }
 }
 /* Small devices (landscape phones, 576px and up) */
 @media (max-width: 576px) {
@@ -292,7 +288,7 @@ div.myimage1 {
   .Homeheading1 {
     padding-top: 30px;
   }
-  .Homeheading2{
+  .Homeheading2 {
     font-size: 30px;
   }
   .Homesec2-row {
@@ -321,9 +317,9 @@ div.myimage1 {
     height: 700px;
   }
   /* Menu.js file */
-  .card{
+  .card {
     width: 24rem;
     align-items: center;
-    border: 5px solid #FECA16 !important;
+    border: 5px solid #feca16 !important;
   }
 }
