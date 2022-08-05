@@ -2,6 +2,7 @@ import React from "react";
 import Home from "./pages/Home";
 import About from "./pages/About";
 import Contact from "./pages/Contact";
+import Menu from "./pages/Menu";
 import logo from "./images/hamburger.png";
 import "bootstrap/dist/css/bootstrap.min.css";
 import { BrowserRouter as Router, Route, Link, Routes } from "react-router-dom";
@@ -41,7 +42,7 @@ export default function header() {
                   </Link>
                 </li>
                 <li class="nav-item">
-                  <Link class="nav-link" to="#">
+                  <Link class="nav-link" to="/menu">
                     Menu
                   </Link>
                 </li>
@@ -103,6 +104,7 @@ export default function header() {
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
           <Route path="/contact" element={<Contact />} />
+          <Route path="/menu" element={<Menu />} />
         </Routes>
       </Router>
     </div>

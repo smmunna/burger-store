@@ -46,7 +46,7 @@ export default function Footer() {
                   </button>
                 </div>
                 <br />
-                <span>Stay connect with us to get Exvlusive offer..</span>
+                <span>Stay connect with us to get Exclusive offer.</span>
               </form>
             </div>
           </div>

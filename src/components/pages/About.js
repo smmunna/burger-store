@@ -4,6 +4,8 @@ import Munna from "../images/munna.png";
 import "bootstrap/dist/css/bootstrap.min.css";
 
 export default function About() {
+  let date = new Date();
+  let year = date.getFullYear();
   return (
     <div className="App">
       <section id="AboutSection">
@@ -17,35 +19,14 @@ export default function About() {
                   alt="Sm Munna"
                   srcset=""
                 />
-                <span className="AboutUnderPicCommnents">
-                  Minhazul Abedin Munna
-                </span>
               </div>
             </div>
             <div className="col-lg-9">
               <div className="Abouttext1">
-                <h5 className="AbouttextFont btn btn-primary">About us</h5>
-                <h2 className="AbouttextFont">Best Burger in your City</h2>
-                <p className="AbouttextFont">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam
-                  aut eligendi dolores enim quod sit at, dolorum, perferendis
-                  similique ex labore ea optio delectus quas fuga aliquid nulla?
-                  Ad corrupti repellendus consectetur in officiis laboriosam.
-                  Deleniti totam quas soluta fuga quia in delectus eligendi quo!
-                  Debitis minus iure voluptatum accusamus assumenda atque
-                  dolorem placeat fugit sequi aspernatur quos quisquam facere
-                  eius soluta sint porro dolore repudiandae, aliquid dicta
-                  delectus iusto autem eum aperiam! Doloribus, praesentium
-                  eveniet vitae sed expedita, excepturi facere repellendus
-                  ratione accusantium ipsa alias voluptatem, architecto saepe
-                  quidem earum assumenda voluptatum aliquid. Enim corporis ipsa
-                  repellendus veritatis ab debitis laborum assumenda dolores
-                  quasi. Neque, unde repellendus consequatur eius vel officiis
-                  fuga totam vitae doloribus ex. Aut eum inventore debitis vel
-                  sunt, dignissimos nulla velit beatae odio. Enim ea magnam
-                  sint, pariatur reprehenderit nostrum odio soluta in recusandae
-                  impedit, non quia cupiditate ab repellendus minima totam
-                  atque, inventore harum?
+                <h5 className="AbouttextFont">About us</h5>
+                <h2 className="AbouttextFont">Best Burger in your City   <span class="badge bg-danger">False Info</span></h2>
+                <p className="AbouttextFont1">
+                In {year}, Our Founder – Minhazul Abedin Munna, during an international trip visited a Burger restaurant which had multiple burger options & bold flavours like PB&J, classic cheese burger which were native to the country. That’s when the idea clicked – why can’t Bangladesh has its own burger chain which sells varieties of burgers with unique and varied flavours that every Bangladeshi can relate to. That’s when The Burger Company was born!
                 </p>
               </div>
             </div>
